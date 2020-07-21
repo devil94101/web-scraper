@@ -26,7 +26,7 @@ function blogs({submit,name,paginate,cng,post,postPerPage,searched,result,blogPa
               </div>
               <div className="col-sm-3 offset-md-1">
                <div className="row">
-                  <h1>Search History<h1>
+                  <h1>Search History</h1>
                </div>
               </div>
             </div>
