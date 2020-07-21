@@ -22,7 +22,7 @@ function App() {
     setSearch(true)
     setPage(1)
     setResult([])
-    axios.post('http://localhost:5000/search',{
+    axios.post('https://scrapetrial.herokuapp.com/search',{
       tagName:name
     })
     .then((res)=>{
@@ -37,7 +37,7 @@ function App() {
     setSearch(true)
     setPage(1)
     setResult([])
-    axios.post('http://localhost:5000/search',{
+    axios.post('https://scrapetrial.herokuapp.com/search',{
       tagName:tag
     })
     .then((res)=>{
