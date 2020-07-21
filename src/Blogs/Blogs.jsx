@@ -2,7 +2,7 @@ import React from 'react'
 import Table from '../table/Table'
 import Load from '../Load/Load'
 import PageNo from '../pageno/PageNo'
-import History from '../table/History'
+
 function blogs({submit,name,paginate,cng,post,postPerPage,searched,result,blogPage,diffSub}) {
 
     return (
@@ -26,7 +26,7 @@ function blogs({submit,name,paginate,cng,post,postPerPage,searched,result,blogPa
               </div>
               <div className="col-sm-3 offset-md-1">
                <div className="row">
-                  <History diffSub={diffSub}></History>
+                  <h1>Search History<h1>
                </div>
               </div>
             </div>
