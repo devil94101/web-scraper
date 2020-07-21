@@ -7,7 +7,7 @@ export class FullBlog extends Component {
     }
    async componentDidMount(){
        try{
-        const res =await axios.post('http://localhost:5000/full-blog',{
+        const res =await axios.post('https://scrapetrial.herokuapp.com/full-blog',{
             url:this.props.blogs[this.props.id].link
         })
         this.props.blogs['blog']=res.data.blog
