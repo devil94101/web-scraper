@@ -2,8 +2,7 @@ import React,{useState} from 'react';
 import axios from 'axios'
 import {BrowserRouter as Router,
   Switch,
-  Route,
-  Link,} from 'react-router-dom'
+  Route} from 'react-router-dom'
 import Blog from './Blogs/Blogs'
 import FullBlog from './Blogs/FullBlog'
 function App() {
