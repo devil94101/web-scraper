@@ -26,7 +26,8 @@ function blogs({submit,name,paginate,cng,post,postPerPage,searched,result,blogPa
               </div>
               <div className="col-sm-3 offset-md-1">
                <div className="row">
-                  <h1>Search History</h1>
+                  <h1>Knock knock tera Baap AAya</h1>
+                   <h4>Deepak Paliwal</h4>
                </div>
               </div>
             </div>
